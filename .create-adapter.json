@@ -1,0 +1,47 @@
+{
+	"expert": "no",
+	"cli": false,
+	"adapterName": "mystrom2",
+	"title": "MyStrom",
+	"description": "Adapter for MyStrom",
+	"keywords": [
+		"MyStrom"
+	],
+	"authorName": "Juergen",
+	"authorGithub": "Beethoven56",
+	"authorEmail": "juergen@beadles.de",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "energy",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "poll",
+	"connectionIndicator": "no",
+	"adapterSettings": [
+		{
+			"key": "IP-Adress",
+			"label": "IP-Adress",
+			"inputType": "text",
+			"defaultValue": ""
+		},
+		{
+			"key": "option2",
+			"defaultValue": "42",
+			"inputType": "text"
+		}
+	],
+	"language": "JavaScript",
+	"adminUi": "json",
+	"releaseScript": "yes",
+	"indentation": "Tab",
+	"quotes": "double",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"license": "MIT License",
+	"target": "github",
+	"creatorVersion": "2.6.5"
+}

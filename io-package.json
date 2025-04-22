@@ -1,0 +1,88 @@
+{
+	"common": {
+		"name": "mystrom2",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"uk": "Початкова версія",
+				"zh-cn": "首次出版"
+			}
+		},
+		"titleLang": {
+			"en": "MyStrom",
+			"de": "MyStrom",
+			"ru": "MyStrom",
+			"pt": "MyStrom",
+			"nl": "MyStrom",
+			"fr": "MyStrom",
+			"it": "MyStrom",
+			"es": "MyStrom",
+			"pl": "MyStrom",
+			"uk": "MyStrom",
+			"zh-cn": "MyStrom"
+		},
+		"desc": {
+			"en": "Adapter for MyStrom",
+			"de": "Adapter for MyStrom",
+			"ru": "Adapter for MyStrom",
+			"pt": "Adapter for MyStrom",
+			"nl": "Adapter for MyStrom",
+			"fr": "Adapter for MyStrom",
+			"it": "Adapter for MyStrom",
+			"es": "Adapter for MyStrom",
+			"pl": "Adapter for MyStrom",
+			"uk": "Adapter for MyStrom",
+			"zh-cn": "Adapter for MyStrom"
+		},
+		"authors": [
+			"Juergen <juergen@beadles.de>"
+		],
+		"keywords": [
+			"MyStrom"
+		],
+		"licenseInformation": {
+			"type": "free",
+			"license": "MIT"
+		},
+		"platform": "Javascript/Node.js",
+		"icon": "mystrom2.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/Beethoven56/ioBroker.mystrom2/main/admin/mystrom2.png",
+		"readme": "https://github.com/Beethoven56/ioBroker.mystrom2/blob/main/README.md",
+		"loglevel": "info",
+		"tier": 3,
+		"mode": "daemon",
+		"type": "energy",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"adminUI": {
+			"config": "json"
+		},
+		"dependencies": [
+			{
+				"js-controller": ">=6.0.11"
+			}
+		],
+		"globalDependencies": [
+			{
+				"admin": "7.0.23"
+			}
+		]
+	},
+	"native": {
+		"IP-Adress": "",
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
